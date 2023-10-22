@@ -1,0 +1,30 @@
+# Ignore Laravel specific files/directories
+/.phpunit.cache
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+
+# Homestead Vagrant
+Homestead.json
+Homestead.yaml
+
+# Ignore local development configuration
+auth.json
+.env.backup
+.env.production
+
+# Fleet
+/.fleet
+
+# IDE/Editor specific files
+.idea
+.vscode
+
+# Vercel directory (if applicable)
+.vercel
